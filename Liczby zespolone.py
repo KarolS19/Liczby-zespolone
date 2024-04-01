@@ -1,3 +1,4 @@
-a= 2j+3
-b=7j+11
-print(a+b)
+a = int(input("Write the real part of a complex number: "))
+b = int(input("Write the imaginary part of a complex number: "))
+z = complex(a, b)
+print("The complex number is:", z)
